@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:mysql://b21b5931cc8989:b1fb5fbf@us-cdbr-east-05.cleardb.net/heroku_83e65bacf3b9653?reconnect=true
+    url: ${CLEARDB_DATABASE_URL}
     initialization-mode: always
   jpa:
     show-sql: true
