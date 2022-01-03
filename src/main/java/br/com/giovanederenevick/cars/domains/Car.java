@@ -17,4 +17,16 @@ public class Car {
 
     @Column(name = "tipo")
     private String type;
+
+    @Column(name = "descricao")
+    private String description;
+
+    @Column(name = "url_foto")
+    private String urlPicture;
+
+    @Column(name = "url_video")
+    private String urlVideo;
+
+    private String latitude;
+    private String longitude;
 }
