@@ -12,9 +12,4 @@ public class IndexController {
     public String get() {
         return "Cars API";
     }
-
-    @GetMapping("/userInfo")
-    public UserDetails userInfo(@AuthenticationPrincipal UserDetails user) {
-        return user;
-    }
 }
